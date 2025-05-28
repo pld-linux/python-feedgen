@@ -6,13 +6,13 @@
 Summary:	Feedgenerator
 Summary(pl.UTF-8):	Generator kanałów informacyjnych (feedów)
 Name:		python-feedgen
-Version:	0.9.0
-Release:	3
+Version:	1.0.0
+Release:	1
 License:	BSD or LGPL v3+
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/feedgen/
 Source0:	https://files.pythonhosted.org/packages/source/f/feedgen/feedgen-%{version}.tar.gz
-# Source0-md5:	9b5be451a164135d6b3fc91a6edcd8ed
+# Source0-md5:	794a854faf9a40311654639ed552cae6
 URL:		https://pypi.org/project/feedgen/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.5
